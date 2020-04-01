@@ -1,0 +1,24 @@
+{
+  "name": "oauth2",
+  "version": "1.0.0",
+  "description": "\"##node_practice\"",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^48.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitmishrra/node_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankitmishrra/node_practice/issues"
+  },
+  "homepage": "https://github.com/ankitmishrra/node_practice#readme"
+}
