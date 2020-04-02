@@ -22,6 +22,7 @@ const redirectUrl = oauth2Client.generateAuthUrl({
 });
 let auth = false;
 app.get("/", async function(req, res) {
+  console.log("inside the function /");
   let oauth2 = google.oauth2({ version: "v1", auth: oauth2Client });
   if (auth) {
     let userInfo = await oauth2.userinfo.v2.me.get();
